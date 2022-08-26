@@ -21,7 +21,7 @@ submitBtn.addEventListener("click", () => {
         <p><span>Category</span> : ${element["strCategory"]}</p>
         <p><span>Origin</span> : ${element["strArea"]}</p>
         <p><span>Description</span> : ${element["strInstructions"]}</p>
-        <p><span>Watch Video</span> : <a href=${element["strYoutube"]}></a></p>
+        <p><a href=${element["strYoutube"]}>Watch Video</a></p>
         </div>`;
 
         container.innerHTML += result;
