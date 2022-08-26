@@ -15,6 +15,7 @@ submitBtn.addEventListener("click", () => {
 
       meals.forEach((element) => {
         console.log(element);
+
         let result = `<div>
         <h1>${element["strMeal"]} </h1>
         <img src=${element["strMealThumb"]}>
