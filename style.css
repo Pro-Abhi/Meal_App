@@ -1,0 +1,36 @@
+.input-area {
+  display: flex;
+  justify-content: center;
+}
+.input-area input {
+  width: 400px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+.input-area button {
+  width: 150px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container div {
+  margin-top: 30px;
+  border-bottom: 2px solid teal;
+}
+
+.container div h1{
+  font-size: 32px;
+}
+
+.container div img {
+  width: 300px;
+}
+
+.container div span {
+  font-weight: bold;
+  font-size: 18px;
+}
